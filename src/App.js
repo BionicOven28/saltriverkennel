@@ -1,11 +1,19 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import BrandPage from './pages/brandpage/BrandPage';
 
-function App() {
-  return (
-    <div className="App">
-      Here's some text
-    </div>
-  );
-}
-
-export default App;
+export default class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={BrandPage}>
+              <BrandPage />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    )
+  };
+};
