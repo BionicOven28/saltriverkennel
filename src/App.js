@@ -1,17 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import BrandPage from './pages/brandpage/BrandPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/home-page/HomePage';
+import Contact from './pages/contact/Contact';
 
 export default class App extends React.Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <Switch>
-            <Route exact path="/" component={BrandPage}>
-              <BrandPage />
+          <Routes>
+            <Route exact path="/" component={HomePage}>
+              <HomePage />
             </Route>
-          </Switch>
+            {/*<Route exact path="/" component={Contact}>
+              <Contact />
+    </Route>*/}
+          </Routes>
         </div>
       </Router>
     )
