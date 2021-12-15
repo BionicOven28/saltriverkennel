@@ -1,0 +1,11 @@
+{
+  "name": "saltriverkennel",
+  "version": "1.0.0",
+  "description": "kennel website repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BionicOven28",
+  "license": "ISC"
+}
