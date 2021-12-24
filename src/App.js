@@ -1,24 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { render } from 'react-router';
+// import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import HomePage from './pages/home-page/HomePage';
-import Contact from './pages/contact/Contact';
+// import Contact from './pages/contact/Contact';
 
-export default class App extends React.Component {
-  render() {
+export default function App() {
     return (
-      <Router>
-        <div className="App">
-          <Routes>
-            <Route exact path="/" component={HomePage}>
-              <HomePage />
-            </Route>
-            {/*<Route exact path="/" component={Contact}>
-              <Contact />
-    </Route>*/}
-          </Routes>
+        <div>
+          <h1>Here's a Header!</h1>
+          <nav
+            style={{
+              border: 'solid 1px',
+              paddingBottom: '1rem'
+            }}>
+            <Link to="/home-page">Home Page</Link> |{""}
+            <Link to="/contact">Contact</Link>
+          </nav>
         </div>
-      </Router>
-    )
-  };
-};
+    );
+}
