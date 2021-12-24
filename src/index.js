@@ -8,6 +8,7 @@ import Contact from './pages/contact/Contact';
 
 import Kennel from './pages/kennel/Kennel';
 import Females from './pages/females-page/Females';
+import Males from './pages/males-page/Males';
 
 import Training from './pages/training/Training';
 
@@ -21,6 +22,7 @@ render(
 
                 <Route path="kennel" element={<Kennel />} />
                 <Route path="females" element={<Females />} />
+                <Route path="males" element={<Males />} />
 
                 <Route path="training-program" element={<Training />} />
 

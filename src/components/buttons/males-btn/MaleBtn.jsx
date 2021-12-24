@@ -6,7 +6,9 @@ class MaleBtn extends React.Component {
     render() {
         return (
             <div>
-                <button type="button" class="btn btn-outline-warning">Males</button>
+                <a href="/males">
+                    <button type="button" class="btn btn-outline-warning">Males</button>
+                </a>
             </div>
         )
     }
