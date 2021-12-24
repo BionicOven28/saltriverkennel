@@ -5,6 +5,7 @@ import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
 import Contact from './pages/contact/Contact';
+import Training from './pages/training/Training';
 
 const rootElement = document.getElementById('root');
 render(
@@ -13,6 +14,7 @@ render(
             <Route path="/" element={<App />}>
                 <Route path="home-page" element={<HomePage />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="training-program" element={<Training />} />
 
                 <Route 
                     path="*"

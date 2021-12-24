@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './home-page.css';
 
 export default function HomePage() {
     return(
         <>
         <div className="hp-title">
-            <h1>Salt River Kennel</h1>
+            <h1>Welcome!</h1>
         </div>
         <div className="hp-desc">
-            <p>Welcome to Salt River Kennel</p>
+            <p>Here's a brief description of our kennel mission statement uwu</p>
         </div>
         </>
     );

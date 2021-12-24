@@ -1,15 +1,11 @@
 import React from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function App() {
     return (
         <div>
-          <h1>Here's a Header!</h1>
-          <nav
-            style={{
-              border: 'solid 1px',
-              paddingBottom: '1rem'
-            }}>
+          <Navbar>
             <NavLink 
               style={({ isActive }) => {
                 return {
@@ -28,7 +24,16 @@ export default function App() {
                 };
               }}
               to="/contact">Contact</NavLink>
-          </nav>
+            <NavLink 
+              style={({ isActive }) => {
+                return {
+                  display: "block",
+                  margin: "1rem 0",
+                  color: isActive ? "red" : ""
+                };
+              }}
+              to="/training-program">Training Program</NavLink>
+          </Navbar>
           <Outlet />
         </div>
     );

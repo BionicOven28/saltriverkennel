@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './contact.css';
 
-class Contact extends Component {
-    render() {
-        return (
-            <>
-            <div className="title-container">
-                <h1>Contact Us</h1>
-            </div>
-            <div className="app-desc-container">
-                <p>Here is our contact information</p>
-            </div>
-            </>
-        )
-    }
-};
-
-export default Contact;
+export default function Contact() {
+    return(
+        <>
+        <div className="hp-title">
+            <h1>Contact Us</h1>
+        </div>
+        <div className="hp-desc">
+            <p>We love when people say hi!</p>
+        </div>
+        </>
+    );
+}
