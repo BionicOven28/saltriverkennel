@@ -5,8 +5,11 @@ import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
 import Contact from './pages/contact/Contact';
-import Training from './pages/training/Training';
+
 import Kennel from './pages/kennel/Kennel';
+import Females from './pages/females-page/Females';
+
+import Training from './pages/training/Training';
 
 const rootElement = document.getElementById('root');
 render(
@@ -15,8 +18,11 @@ render(
             <Route path="/" element={<App />}>
                 <Route path="home-page" element={<HomePage />} />
                 <Route path="contact" element={<Contact />} />
-                <Route path="training-program" element={<Training />} />
+
                 <Route path="kennel" element={<Kennel />} />
+                <Route path="females" element={<Females />} />
+
+                <Route path="training-program" element={<Training />} />
 
                 <Route 
                     path="*"
