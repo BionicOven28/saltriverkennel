@@ -1,23 +1,19 @@
 import React from 'react';
-import { render } from 'react-router';
-// import { BrowserRouter } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-
-import HomePage from './pages/home-page/HomePage';
-// import Contact from './pages/contact/Contact';
+import { Outlet, NavLink } from 'react-router-dom';
 
 export default function App() {
     return (
-        <div>
+        <div style={{ display: 'flex'}}>
           <h1>Here's a Header!</h1>
           <nav
             style={{
               border: 'solid 1px',
-              paddingBottom: '1rem'
+              padding: '1rem'
             }}>
-            <Link to="/home-page">Home Page</Link> |{""}
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/home-page">Home Page</NavLink> |{""}
+            <NavLink to="/contact">Contact</NavLink>
           </nav>
+          <Outlet />
         </div>
     );
 }
