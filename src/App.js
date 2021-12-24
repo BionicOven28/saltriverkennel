@@ -1,12 +1,17 @@
 import React from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+
+import Title from './components/title/Title';
+
+import './App.css';
 
 export default function App() {
     return (
-        <div>
-          <Navbar>
-            <NavLink 
+        <div className="navi-box">
+          <Title />
+          <Nav className="navi">
+            <NavLink
               style={({ isActive }) => {
                 return {
                   display: "block",
@@ -33,7 +38,7 @@ export default function App() {
                 };
               }}
               to="/training-program">Training Program</NavLink>
-          </Navbar>
+          </Nav>
           <Outlet />
         </div>
     );
