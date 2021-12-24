@@ -6,6 +6,7 @@ import App from './App';
 import HomePage from './pages/home-page/HomePage';
 import Contact from './pages/contact/Contact';
 import Training from './pages/training/Training';
+import Kennel from './pages/kennel/Kennel';
 
 const rootElement = document.getElementById('root');
 render(
@@ -15,6 +16,7 @@ render(
                 <Route path="home-page" element={<HomePage />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="training-program" element={<Training />} />
+                <Route path="kennel" element={<Kennel />} />
 
                 <Route 
                     path="*"

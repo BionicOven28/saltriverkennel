@@ -38,6 +38,15 @@ export default function App() {
                 };
               }}
               to="/training-program">Training Program</NavLink>
+            <NavLink 
+              style={({ isActive }) => {
+                return {
+                  display: "block",
+                  margin: "1rem 0",
+                  color: isActive ? "red" : ""
+                };
+              }}
+              to="/kennel">Kennel</NavLink>
           </Nav>
           <Outlet />
         </div>
