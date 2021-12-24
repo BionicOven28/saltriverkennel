@@ -1,4 +1,8 @@
 import React from 'react';
+
+import FemaleBtn from '../../components/buttons/females-btn/FemaleBtn';
+import MaleBtn from '../../components/buttons/males-btn/MaleBtn';
+
 import './kennel.css';
 
 export default function Kennel() {
@@ -10,6 +14,8 @@ export default function Kennel() {
         <div className="hp-desc">
             <p>I want to do two display cards, one says females and one says males</p>
             <p>There will be buttons to lead to the females and to lead to the males</p>
+            <FemaleBtn />
+            <MaleBtn />
         </div>
         </>
     );

@@ -37,7 +37,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/training-program">Training Program</NavLink>
+              to="/kennel">Kennel</NavLink>
             <NavLink 
               style={({ isActive }) => {
                 return {
@@ -46,7 +46,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/kennel">Kennel</NavLink>
+              to="/training-program">Training Program</NavLink>
           </Nav>
           <Outlet />
         </div>
