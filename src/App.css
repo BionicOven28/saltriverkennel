@@ -1,3 +1,12 @@
+/* Color Palette for the site */
+/* */
+
+nav {
+  border: 2px solid green;
+  color: red;
+}
+
+
 h1 {
   color: red;
 }
