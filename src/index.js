@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
+import AboutUs from './pages/about-us/AboutUs';
+import BlogsAndPosts from './pages/blogs-and-posts/BlogsAndPosts';
 import Contact from './pages/contact/Contact';
 import Brags from './pages/brags/Brags';
 
@@ -24,6 +26,8 @@ render(
         <Routes>
             <Route path="/" element={<App />}>
                 <Route path="home-page" element={<HomePage />} />
+                <Route path="about-us" element={<AboutUs />} />
+                <Route path="blogs-and-posts" element={<BlogsAndPosts />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="brags" element={<Brags />} />
 

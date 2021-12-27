@@ -20,6 +20,24 @@ export default function App() {
                 };
               }}
               to="/home-page">Home Page</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  display: "block",
+                  margin: "1rem 0",
+                  color: isActive ? "red" : ""
+                };
+              }}
+              to="/about-us">About</NavLink>
+            <NavLink 
+              style={({ isActive }) => {
+                return {
+                  display: "block",
+                  margin: "1rem 0",
+                  color: isActive ? "red" : ""
+                };
+              }}
+              to="/blogs-and-posts">Blog</NavLink>
             <NavLink 
               style={({ isActive }) => {
                 return {
