@@ -5,10 +5,16 @@ import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
 import Contact from './pages/contact/Contact';
+import Brags from './pages/brags/Brags';
 
 import Kennel from './pages/kennel/Kennel';
 import Females from './pages/females-page/Females';
 import Males from './pages/males-page/Males';
+import LittersHub from './pages/litters/litters-hub/LittersHub';
+import PlannedLitters from './pages/litters/planned-litters/PlannedLitters';
+import CurrentLitters from './pages/litters/current-litters/CurrentLitters';
+import PastLitters from './pages/litters/past-litters/PastLitters';
+
 
 import Training from './pages/training/Training';
 
@@ -19,10 +25,15 @@ render(
             <Route path="/" element={<App />}>
                 <Route path="home-page" element={<HomePage />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="brags" element={<Brags />} />
 
                 <Route path="kennel" element={<Kennel />} />
                 <Route path="females" element={<Females />} />
                 <Route path="males" element={<Males />} />
+                <Route path="litters" element={<LittersHub />} />
+                <Route path="planed-litters" element={<PlannedLitters />} />
+                <Route path="current-litters" element={<CurrentLitters />} />
+                <Route path="past-litters" element={<PastLitters />} />
 
                 <Route path="training-program" element={<Training />} />
 
