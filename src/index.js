@@ -25,7 +25,7 @@ render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App />}>
-                <Route path="home-page" element={<HomePage />} />
+                <Route path="home" element={<HomePage />} />
                 <Route path="about-us" element={<AboutUs />} />
                 <Route path="blogs-and-posts" element={<BlogsAndPosts />} />
                 <Route path="contact" element={<Contact />} />

@@ -19,7 +19,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/home-page">Home Page</NavLink>
+              to="/home">Home</NavLink>
             <NavLink
               style={({ isActive }) => {
                 return {
