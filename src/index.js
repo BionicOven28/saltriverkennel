@@ -15,8 +15,8 @@ import PlannedLitters from './pages/litters/planned-litters/PlannedLitters';
 import CurrentLitters from './pages/litters/current-litters/CurrentLitters';
 import PastLitters from './pages/litters/past-litters/PastLitters';
 
-
 import Training from './pages/training/Training';
+import StartedDogs from './pages/started-dogs/StartedDogs';
 
 const rootElement = document.getElementById('root');
 render(
@@ -31,11 +31,12 @@ render(
                 <Route path="females" element={<Females />} />
                 <Route path="males" element={<Males />} />
                 <Route path="litters" element={<LittersHub />} />
-                <Route path="planed-litters" element={<PlannedLitters />} />
+                <Route path="planned-litters" element={<PlannedLitters />} />
                 <Route path="current-litters" element={<CurrentLitters />} />
                 <Route path="past-litters" element={<PastLitters />} />
 
                 <Route path="training-program" element={<Training />} />
+                <Route path="started-dogs" element={<StartedDogs />} />
 
                 <Route 
                     path="*"

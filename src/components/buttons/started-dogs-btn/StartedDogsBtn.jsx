@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './planned-litters-btn.css';
+import './started-dogs-btn.css';
 
-class PlannedLittersBtn extends React.Component {
+class StartedDogsBtn extends React.Component {
     render() {
         return (
             <div>
-                <a href="/planned-litters">
+                <a href="/started-dogs">
                     <button type="button" class="btn btn-outline-primary">
-                        Planned Litters
+                        Started Dogs
                     </button>
                 </a>
             </div>
@@ -16,4 +16,4 @@ class PlannedLittersBtn extends React.Component {
     }
 };
 
-export default PlannedLittersBtn;
+export default StartedDogsBtn;

@@ -1,6 +1,7 @@
 import React from 'react';
 
-import BackToKennelBtn from '../../components/buttons/back-to-kennel-btn/BackToKennelBtn';
+import BackToKennelBtn from '../../components/buttons/back-btns/back-to-kennel-btn/BackToKennelBtn';
+import ProgramDogCard from '../../components/program-dog-card/ProgramDogCard';
 
 import './males.css';
 
@@ -14,6 +15,8 @@ export default function Males() {
         <div className="hp-desc">
             <p>here will display cards of all of the male dogs at salt river kennel that are used in the breeding program</p>
         </div>
+        <ProgramDogCard />
+        <ProgramDogCard />
         </>
     );
 }

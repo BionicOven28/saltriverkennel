@@ -1,4 +1,5 @@
 import React from 'react';
+import StartedDogsBtn from '../../components/buttons/started-dogs-btn/StartedDogsBtn';
 import './training.css';
 
 export default function Training() {
@@ -11,6 +12,7 @@ export default function Training() {
             <p>This is where we describe the training program</p>
             <p>Board and trains, group classes, etc. are all here (may navigate to different pages)</p>
         </div>
+        <StartedDogsBtn />
         </>
     );
 }
