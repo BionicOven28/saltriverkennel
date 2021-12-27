@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BackToKennelBtn from '../../components/buttons/back-to-kennel-btn/BackToKennelBtn';
+import BackToKennelBtn from '../../components/buttons/back-btns/back-to-kennel-btn/BackToKennelBtn';
 import ProgramDogCard from '../../components/program-dog-card/ProgramDogCard';
 
 import './females.css';
