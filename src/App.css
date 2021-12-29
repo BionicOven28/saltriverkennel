@@ -1,27 +1,57 @@
 /* COLORS */
-/* */
-
+/* #152614 - Phthalo Green */
+/* #1E441E - Forest Green Traditional */
+/* #2A7221 - Pakistan Green */
+/* #70A26A - Forest Green Crayola */
+/* #B6D2B2 - Cambridge Blue */
+/* #F5F5F5 - Cultured */
+/* Accents */
+/* #B5F415 - Green Lizard */
+/* #F9629C - French Pink */
+ 
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap'); /*Roboto Slab, serif*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@200&display=swap'); /*Montserrat, sans-serif*/
 
-.navi-box {
-  border: 1px solid red;
-  padding: 1rem;
+/* General CSS */
+h1 {
+  font-family: 'Roboto Slab', serif;
 }
 
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F5F5F5;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #152614;
+}
+
+/* Navigation */
 .navi {
   border: 2px solid green;
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-h1 {
-  font-family: 'Roboto Slab', serif;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
 }

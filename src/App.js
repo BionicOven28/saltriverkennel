@@ -3,12 +3,13 @@ import { Outlet, NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
 import Title from './components/title/Title';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
 export default function App() {
     return (
-        <div className="navi-box">
+        <>
           <Title />
           <Nav className="navi">
             <NavLink
@@ -85,6 +86,7 @@ export default function App() {
               to="/training-program">Training Program</NavLink>
           </Nav>
           <Outlet />
-        </div>
+          <Footer />
+        </>
     );
 }
