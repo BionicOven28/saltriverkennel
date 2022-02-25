@@ -12,7 +12,8 @@ export default function App() {
         <>
           <Title />
           <Nav className="navi">
-            <NavLink
+              <h3><NavLink
+              className="nav-link"
               style={({ isActive }) => {
                 return {
                   display: "block",
@@ -20,7 +21,7 @@ export default function App() {
                   color: isActive ? "#F9629C" : "#2A7221"
                 };
               }}
-              to="/home">Home</NavLink>
+              to="/home">Home</NavLink></h3>
             <NavLink
               style={({ isActive }) => {
                 return {
