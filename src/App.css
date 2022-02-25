@@ -1,31 +1,54 @@
 /* APP-WIDE COLORS */
 /* #152614 - Phthalo Green */
+/* --heavy-metal: rgba(50,52,46,1); */
+/* --mineral-green: rgba(65,90,84,1); */
+/* --bitter: rgba(127,133,117,1); */
 /* #1E441E - Forest Green Traditional */
+/* --dingley: rgba(89,110,72,1); */
 /* #2A7221 - Pakistan Green */
+/* --asparagus: rgba(137,152,86,1); */
 /* #70A26A - Forest Green Crayola */
 /* #B6D2B2 - Cambridge Blue */
 /* #F5F5F5 - Cultured */
+/* --millbrook: rgba(93,71,50,1); */
+/* --potters-clay: rgba(129,92,56,1); */
+/* --tussock: rgba(195,139,69,1); */
 
 /* APP-WIDE ACCENT COLORS */
 /* #B5F415 - Green Lizard */
 /* #F9629C - French Pink */
-
-/* SCSS RGB */
-/* --heavy-metal: rgba(50,52,46,1); */
-/* --tussock: rgba(195,139,69,1); */
-/* --potters-clay: rgba(129,92,56,1); */
-/* --dingley: rgba(89,110,72,1); */
-/* --millbrook: rgba(93,71,50,1); */
-/* --asparagus: rgba(137,152,86,1); */
 /* --paarl: rgba(166,67,41,1); */
-/* --mineral-green: rgba(65,90,84,1); */
-/* --bitter: rgba(127,133,117,1); */
  
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap'); /*Roboto Slab, serif*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@200&display=swap'); /*Montserrat, sans-serif*/
 
+/* WEBKIT SCROLLBAR */
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 0.3rem;
+  background-color: rgba(50,52,46,1);
+}
+
+/* Scrollbar Track */
+/*::-webkit-scrollbar-track {
+  border-radius: px;
+}*/
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(127,133,117,1);
+  border-radius: 0.1rem;
+}
+
 /* General CSS */
+/* NOTE: I separated each heading number at the beginning,
+         just in case I ended up using them for different things
+         while I was programming.
+         It looks clunkier from the outside, but works better
+         for me and my workflow.
+*/
+
 h1 {
   font-family: 'Roboto Slab', serif;
 }
@@ -63,7 +86,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Navigation */
+/* NAVIGATION */
 /* Standard Style */
 .navi {
   border: 2px solid green;
