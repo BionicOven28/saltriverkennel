@@ -1,23 +1,21 @@
 /* APP-WIDE COLORS */
-/* #152614 - Phthalo Green */
-/* --heavy-metal: rgba(50,52,46,1); */
-/* --mineral-green: rgba(65,90,84,1); */
-/* --bitter: rgba(127,133,117,1); */
-/* #1E441E - Forest Green Traditional */
-/* --dingley: rgba(89,110,72,1); */
-/* #2A7221 - Pakistan Green */
-/* --asparagus: rgba(137,152,86,1); */
-/* #70A26A - Forest Green Crayola */
-/* #B6D2B2 - Cambridge Blue */
-/* #F5F5F5 - Cultured */
-/* --millbrook: rgba(93,71,50,1); */
-/* --potters-clay: rgba(129,92,56,1); */
-/* --tussock: rgba(195,139,69,1); */
+/* --Phthalo Green: rgba(21,38,20) */
+/* --Heavy Metal: rgba(50,52,46,1); */
+/* --Mineral Green: rgba(65,90,84,1); */
+/* --Bitter: rgba(127,133,117,1); */
+/* --Forest Green Traditional: rgba(30,68,30) */
+/* --Dingley: rgba(89,110,72,1); */
+/* --Asparagus: rgba(137,152,86,1); */
+/* --Forest Green Crayola: rgba(112,162,106) */
+/* --Cultured: rgba(245,245,245) */
+/* --Millbrook: rgba(93,71,50,1); */
+/* --Potters-clay: rgba(129,92,56,1); */
 
 /* APP-WIDE ACCENT COLORS */
-/* #B5F415 - Green Lizard */
-/* #F9629C - French Pink */
-/* --paarl: rgba(166,67,41,1); */
+/* --Paarl: rgba(166,67,41,1); */
+/* --Tussock: rgba(195,139,69,1); */
+/* --Cambridge Blue: rgba(182,210,178) */
+/* --Pakistan Green: rgba(42,113,33) */
  
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap'); /*Roboto Slab, serif*/
@@ -51,6 +49,7 @@
 
 h1 {
   font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
 }
 
 h2 {
@@ -89,8 +88,9 @@ body {
 /* NAVIGATION */
 /* Standard Style */
 .navi {
-  border: 2px solid green;
-  padding: 0.25rem;
+  border-top: 0.1rem solid rgba(245,245,245);
+  border-bottom: 0.1rem solid rgba(245,245,245);
+  background-color: rgba(21,38,20,0.6);
   display: flex;
   flex-direction: row;
   justify-content: center;
