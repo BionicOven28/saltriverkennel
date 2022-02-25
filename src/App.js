@@ -57,7 +57,7 @@ export default function App() {
                 };
               }}
               to="/brags">Brags</NavLink>
-            <NavLink 
+            {/* <NavLink 
               style={({ isActive }) => {
                 return {
                   display: "block",
@@ -65,8 +65,8 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/kennel">Kennel</NavLink>
-            <NavLink 
+            to="/kennel">Kennel</NavLink> */}
+            {/* <NavLink 
               style={({ isActive }) => {
                 return {
                   display: "block",
@@ -74,7 +74,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/litters">Litters</NavLink>
+            to="/litters">Litters</NavLink> */}
             <NavLink 
               style={({ isActive }) => {
                 return {
