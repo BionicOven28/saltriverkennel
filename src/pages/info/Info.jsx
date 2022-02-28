@@ -1,14 +1,14 @@
 import React from 'react';
-import './contact.css';
+import './info.css';
 
-export default function Contact() {
+export default function Info() {
     return(
         <>
         <div className="hp-title">
-            <h1>Contact Us</h1>
+            <h1>About Us and Our Program</h1>
         </div>
         <div className="hp-desc">
-            <p>We love when people say hi!</p>
+            <p>an in depth look into the kennel and its programs</p>
         </div>
         </>
     );

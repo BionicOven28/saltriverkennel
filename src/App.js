@@ -30,7 +30,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/about-us">About</NavLink>
+              to="/info">Info</NavLink>
             <NavLink 
               style={({ isActive }) => {
                 return {
@@ -39,16 +39,7 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
-              to="/blogs-and-posts">Blog</NavLink>
-            <NavLink 
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
-              to="/contact">Contact</NavLink>
+              to="/posts">Posts</NavLink>
             <NavLink
               style={({ isActive }) => {
                 return {
