@@ -12,78 +12,165 @@ export default function App() {
         <>
           <Title />
           <Nav className="navi">
-              <h3><NavLink
-              className="nav-link"
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "0.25rem 0",
-                  color: isActive ? "#F9629C" : "#2A7221"
-                };
-              }}
-              to="/home">Home</NavLink></h3>
             <NavLink
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
+              to="/home">Home</NavLink>
+            <NavLink
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
               to="/contact">Contact</NavLink>
             <NavLink
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
               to="/info">Info</NavLink>
             <NavLink 
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
               to="/posts">Posts</NavLink>
             <NavLink
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
               to="/brags">Brags</NavLink>
             <NavLink 
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
             to="/kennel">Kennel</NavLink>
-            <NavLink 
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+            <NavLink
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
             to="/litters">Litters</NavLink>
             <NavLink 
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : ""
-                };
-              }}
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : { 
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
               to="/training-program">Training Program</NavLink> 
           </Nav>
           <Outlet />

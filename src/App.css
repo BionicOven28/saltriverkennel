@@ -12,8 +12,8 @@
 /* --Potters-clay: rgba(129,92,56,1); */
 
 /* APP-WIDE ACCENT COLORS */
-/* --Paarl: rgba(166,67,41,1); */
-/* --Tussock: rgba(195,139,69,1); */
+/* --Paarl: rgba(218, 73, 37, 1); */
+/* --Tussock: rgba(243, 157, 53, 1); */
 /* --Cambridge Blue: rgba(182,210,178) */
 /* --Pakistan Green: rgba(42,113,33) */
  
@@ -86,7 +86,7 @@ body {
 }
 
 /* NAVIGATION */
-/* Standard Style */
+/* Navigation Box */
 .navi {
   border-top: 0.1rem solid rgba(245,245,245);
   border-bottom: 0.1rem solid rgba(245,245,245);
@@ -96,4 +96,39 @@ body {
   justify-content: center;
 }
 
-/* Custom Hover Style for Navigation */
+/* Navigation link Styles */
+.navi-link {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+/* nav.shift ul li a {
+  position:relative!important;
+  z-index: 1!important;
+}
+nav.shift ul li a:hover {
+  color: #91640F;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #F1C40F;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+} */
