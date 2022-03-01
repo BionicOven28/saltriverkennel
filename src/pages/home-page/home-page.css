@@ -1,5 +1,15 @@
+.hp-title {
+    text-align: center;
+    background-color: orange;
+}
+
 h1 {
     color: red;
+}
+
+.hp-desc {
+    margin: 1px solid yellow;
+    background-color: black;
 }
 
 p {

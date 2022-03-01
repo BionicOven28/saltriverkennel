@@ -30,6 +30,15 @@ export default function App() {
                   color: isActive ? "red" : ""
                 };
               }}
+              to="/contact">Contact</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  display: "block",
+                  margin: "1rem 0",
+                  color: isActive ? "red" : ""
+                };
+              }}
               to="/info">Info</NavLink>
             <NavLink 
               style={({ isActive }) => {

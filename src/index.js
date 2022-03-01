@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
+import Contact from './pages/contact/Contact';
 import Info from './pages/info/Info';
 import BlogsAndPosts from './pages/blogs-and-posts/BlogsAndPosts';
 import Brags from './pages/brags/Brags';
