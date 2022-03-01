@@ -1,10 +1,25 @@
-.hp-title {
+.hp-box1 {
     text-align: center;
-    background-color: orange;
+    background-color: rgba(65,90,84,0.75);
+    margin: 1rem;
 }
 
-h1 {
-    color: red;
+.hp-header1 {
+    color: rgba(245,245,245);
+    padding: 1.5rem;
+    font-weight: normal;
+}
+
+.hp-desc1 {
+    color: rgba(245,245,245);
+    padding: 1.5rem;
+}
+
+
+.hp-title {
+    text-align: center;
+    background-color: rgba(65,90,84,0.75);
+    margin: 1rem;
 }
 
 .hp-desc {
@@ -12,6 +27,7 @@ h1 {
     background-color: black;
 }
 
-p {
+.hp-desc-text {
     color: green;
+    text-align: center;
 }
