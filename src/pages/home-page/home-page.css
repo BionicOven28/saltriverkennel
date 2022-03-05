@@ -1,19 +1,24 @@
-.hp-box1 {
+/* Box 1: Welcome Box */
+.hp-welcome-box {
     text-align: center;
     background-color: rgba(65,90,84,0.75);
     margin: 1rem;
 }
 
-.hp-header1 {
+.hp-welcome-header {
     color: rgba(245,245,245);
     padding: 1.5rem;
     font-weight: normal;
 }
 
-.hp-desc1 {
+.hp-welcome-desc {
     color: rgba(245,245,245);
     padding: 1.5rem;
+    font-size: 1.25rem;
 }
+
+/* Box 2: Upcoming Events */
+
 
 
 .hp-title {

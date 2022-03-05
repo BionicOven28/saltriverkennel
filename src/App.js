@@ -18,13 +18,15 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
                       background: 'rgba(65,90,84,1)',
                       padding: '0.25rem'
                     }
-                    : { 
+                    : {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -38,13 +40,15 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
                       background: 'rgba(65,90,84,1)',
                       padding: '0.25rem'
                     }
-                    : { 
+                    : {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -58,6 +62,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -65,6 +70,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -78,6 +84,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -85,6 +92,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -98,6 +106,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -105,6 +114,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -118,6 +128,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -125,6 +136,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -138,6 +150,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -145,6 +158,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
@@ -158,6 +172,7 @@ export default function App() {
                 ({ isActive }) => 
                   isActive 
                     ? {
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(245,245,245)',
@@ -165,6 +180,7 @@ export default function App() {
                       padding: '0.25rem'
                     }
                     : { 
+                      textDecoration: "none",
                       display: 'block',
                       margin: '1rem 0.40rem 1rem 0.40rem',
                       color: 'rgba(243, 157, 53, 1)',
