@@ -18,6 +18,7 @@ import CurrentLitters from './pages/litters/current-litters/CurrentLitters';
 import PastLitters from './pages/litters/past-litters/PastLitters';
 
 import Training from './pages/training/Training';
+import RecommendedTrainers from './pages/recc-trainers/ReccTrainers';
 import StartedDogs from './pages/started-dogs/StartedDogs';
 
 const rootElement = document.getElementById('root');
@@ -40,6 +41,7 @@ render(
                 <Route path="past-litters" element={<PastLitters />} />
 
                 <Route path="training-program" element={<Training />} />
+                <Route path="recommended-trainers" element={<RecommendedTrainers />} />
                 <Route path="started-dogs" element={<StartedDogs />} />
 
                 <Route 

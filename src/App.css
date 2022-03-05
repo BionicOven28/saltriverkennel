@@ -134,3 +134,18 @@ nav.shift ul li a:hover:after {
   visibility: visible;
   height: 100%;
 } */
+
+/* IMG Styles */
+.img-1 {
+  height: auto;
+  width: 50%;
+}
+
+/*IMG Caption Styles */
+.std-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(245,245,245);
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
