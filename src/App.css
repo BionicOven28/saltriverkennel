@@ -1,4 +1,10 @@
 /* APP-WIDE COLORS */
+/* NOTE---
+   I put all of the website's colors here as a reference
+   for myself. That way none of them get lost and the website's
+   theme is more cohesive.
+*/
+
 /* --Heavy Metal: rgba(50,52,46,1); */
 /* --Mineral Green: rgba(65,90,84,1); */
 /* --Bitter: rgba(127,133,117,1); */
@@ -105,6 +111,13 @@ body {
   font-size: 1.25rem;
 }
 
+/* NOTE---
+   I am in the process of figuring out
+   how to customize React's hover effect on
+   the NavLink tag. I'm keeping this info
+   here as a reference when I figure it out.
+*/
+
 /* nav.shift ul li a {
   position:relative!important;
   z-index: 1!important;
@@ -141,7 +154,7 @@ nav.shift ul li a:hover:after {
   width: 50%;
 }
 
-/*IMG Caption Styles */
+/*IMG Caption */
 .std-caption {
   font-family: 'Montserrat', sans-serif;
   color: rgba(245,245,245);
