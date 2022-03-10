@@ -5,6 +5,7 @@ import App from './App';
 
 import HomePage from './pages/home-page/HomePage';
 import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
 import Info from './pages/info/Info';
 import BlogsAndPosts from './pages/blogs-and-posts/BlogsAndPosts';
 import Brags from './pages/brags/Brags';
@@ -28,6 +29,7 @@ render(
             <Route path="/" element={<App />}>
                 <Route path="home" element={<HomePage />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="about"  element={<About />} />
                 <Route path="info" element={<Info />} />
                 <Route path="blogs-and-posts" element={<BlogsAndPosts />} />
                 <Route path="brags" element={<Brags />} />

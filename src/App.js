@@ -78,6 +78,28 @@ export default function App() {
                     }
               }
               to="/info">Info</NavLink>
+              <NavLink
+              className="navi-link"
+              style={
+                ({ isActive }) => 
+                  isActive 
+                    ? {
+                      textDecoration: "none",
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(245,245,245)',
+                      background: 'rgba(65,90,84,1)',
+                      padding: '0.25rem'
+                    }
+                    : {
+                      textDecoration: "none",
+                      display: 'block',
+                      margin: '1rem 0.40rem 1rem 0.40rem',
+                      color: 'rgba(243, 157, 53, 1)',
+                      padding: '0.25rem'
+                    }
+              }
+              to="/about">About</NavLink>
             <NavLink 
               className="navi-link"
               style={
