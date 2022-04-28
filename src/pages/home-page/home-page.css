@@ -1,10 +1,4 @@
 /* Box 1: Welcome Box */
-.hp-welcome-box {
-    text-align: center;
-    background-color: rgba(65,90,84,0.75);
-    margin: 1rem;
-}
-
 .hp-welcome-header {
     color: rgba(245,245,245);
     padding: 1.5rem;
@@ -18,21 +12,9 @@
 }
 
 /* Box 2: Upcoming Events */
-
-
-
-.hp-title {
-    text-align: center;
-    background-color: rgba(65,90,84,0.75);
-    margin: 1rem;
-}
-
-.hp-desc {
-    margin: 1px solid yellow;
-    background-color: black;
-}
-
-.hp-desc-text {
-    color: green;
-    text-align: center;
+.hp-events-box {
+    display: flex;
+    color: rgba(245,245,245);
+    padding: 1.5rem;
+    font-size: 1.25rem;
 }

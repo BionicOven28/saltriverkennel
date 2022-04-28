@@ -7,8 +7,8 @@ class Title extends React.Component {
         return (
             <div className="main-title-bg">
                 <div className="main-title-box">
-                    <h1 className="main-title">Taigh-Chon de Salann Abhainn</h1>
-                    <h3 className="sub-title">Salt River Kennel</h3>
+                    <h1 className="main-title">Squirrel River</h1>
+                    <h2 className="sub-title">de Abhainn Feorag</h2>
                 </div>
             </div>
         )

@@ -10,6 +10,8 @@ import Info from './pages/info/Info';
 import BlogsAndPosts from './pages/blogs-and-posts/BlogsAndPosts';
 import Brags from './pages/brags/Brags';
 
+import BreedingProgram from './pages/breeding-program/BreedingProgram';
+
 import Kennel from './pages/kennel/Kennel';
 import Females from './pages/females-page/Females';
 import Males from './pages/males-page/Males';
@@ -33,6 +35,8 @@ render(
                 <Route path="info" element={<Info />} />
                 <Route path="blogs-and-posts" element={<BlogsAndPosts />} />
                 <Route path="brags" element={<Brags />} />
+
+                <Route path="program" element={<BreedingProgram />} />
 
                 <Route path="kennel" element={<Kennel />} />
                 <Route path="females" element={<Females />} />

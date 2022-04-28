@@ -1,4 +1,4 @@
-/* APP-WIDE COLORS */
+/* ---APP-WIDE COLORS--- */
 /* NOTE---
    I put all of the website's colors here as a reference
    for myself. That way none of them get lost and the website's
@@ -83,14 +83,19 @@ h6 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 
 body {
-  /* background-image: url('https://wallpaperaccess.com/full/4706963.jpg'); */
+  /*background-image: url('https://wallpaperaccess.com/full/4706963.jpg');*/
   background-image: url('https://images.hdqwalls.com/download/material-design-forest-lu-1280x1024.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.webContainer {
+  width: auto;
 }
 
 /* NAVIGATION */
@@ -108,7 +113,7 @@ body {
 .navi-link {
   font-family: 'Roboto Slab', serif;
   font-weight: bolder;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 /* NOTE---
@@ -147,6 +152,25 @@ nav.shift ul li a:hover:after {
   visibility: visible;
   height: 100%;
 } */
+
+/* CONTENT BOX STYLES */
+/* NOTE---
+   On all of these pages I have colored boxes backing
+   the content I'm displaying. These boxes are in the app-wide
+   CSS because I repeatedly use them across the site.
+*/
+
+.content-box-1 {
+  text-align: center;
+  background-color: rgba(65,90,84,0.75);
+  margin: 1rem;
+}
+
+.content-box-2 {
+  text-align: right;
+  background-color: rgba(129,92,56,0.75);
+  margin: 1rem;
+}
 
 /* IMG Styles */
 .img-1 {
